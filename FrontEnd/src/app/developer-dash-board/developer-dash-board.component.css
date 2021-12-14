@@ -1,0 +1,135 @@
+
+*{   font-family: 'Poppins', sans-serif;
+}
+.greeting{
+    text-align: center;
+}
+.greeting span{
+    color: #008329;
+}
+
+.one{
+
+    /* height: 100%; */
+    background-color:#F2F2F2;
+    color: black;
+    position: relative;
+    /* margin-top:5%;
+    margin-bottom:5%; */
+    padding: 5%;
+   
+}
+.two{
+    /* width: 50%; */
+    /* height: 100%; */
+    background-color: white;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 30px;
+    /* top: 50%;*/
+    left: 50%; 
+  
+    transform: translate(-50%);
+}
+.p1{
+    
+}
+.btn{
+    width: 30%;
+    background-color:#008329;
+}
+
+.p2{
+    /* margin-top: 5%; */
+}
+
+label{
+    font-size: 25px;
+    padding-right: 20px;
+}
+
+select{
+    /* background-color: gray; */
+    font-size: 20px;
+    width: 60%;
+    height: 40px;
+    padding-left: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+textarea{
+    font-size: 20px;
+    width: 60%;
+
+    padding-left: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+input{
+    font-size: 20px;
+    width: 60%;
+    height: 40px;
+    padding-left: 30px;
+    border: 1px solid gray;
+    outline: none;
+}
+table{  
+    width: 100%;
+    position: relative;
+    left: 50%;
+    height: 200px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.section-heading{
+margin-top: 50px;
+ color: green;
+}
+
+form h5{
+    color: green;
+}
+.form-control.ng-touched.ng-invalid.ng-required{
+    border: 2px solid red;
+}
+@media all and (max-width:550px){
+    label{
+        font-size: 15px;
+        padding-right: 20px;
+    }
+    input{
+        font-size: 12px;
+        width: 80%;
+        height: 25px;
+        padding-left: 15px;
+      
+    }
+    textarea{
+        font-size: 12px;
+        width: 80%;
+    
+        padding-left: 25px;
+      
+    }
+    select{
+        /* background-color: gray; */
+        font-size: 12px;
+        width: 80%;
+        height: 40px;
+        padding-left: 15px;
+       
+    }
+    .section-heading{
+        margin-top: 25px;
+         color: green;
+         font-size: 20px;
+        }
+    .greeting h2{
+        font-size: 25px;
+    }
+}

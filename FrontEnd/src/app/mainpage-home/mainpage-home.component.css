@@ -1,0 +1,268 @@
+*{
+ margin: 0;
+ padding:0 ;
+ font-family: 'Poppins', sans-serif;
+ /* background-color: red; */
+
+}
+
+.img-container{
+    position: relative;
+    height: 300px;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    
+}
+
+
+.img{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    height: 200px;
+} 
+.img-text{
+    position: absolute;
+    transform: translateY(-100%);
+    top: 25%;
+    left: 10%;
+    color: #018328;
+}
+
+.img-text p{
+    color: gray;
+}
+
+.getstarted-btn{
+    background-color:#018328 ;
+    color: aliceblue;
+    margin-top: 5px;
+    border:0;
+    font-size: 15px;
+    padding: 8px;
+    outline: none;
+}
+.getstarted-btn:hover{
+    box-shadow: 5px 5px 5px gray;
+}
+
+/* cards */
+
+.card-container{
+    position: relative;
+    height: 500px;
+    /* background-color: #018328; */
+}
+
+.card-container h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cards{
+    padding-top: 50px;
+    
+    display: grid;
+    grid-template-columns:auto auto auto;
+    /* background-color: #018328; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    column-gap:50px;
+    row-gap: 20px;
+   
+}
+.item{
+    box-shadow: 5px 5px 10px 5px gray;
+    height: 200px;
+    width: 280px;
+    text-align: center;
+    transition: 1s;
+}
+.item h6{
+    padding-top: 20px;
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.cards img{
+    width: 100%;
+}
+
+.imgAboveCardContainer{
+    width: 100%;
+    height: 400px;
+}
+.divOnImage{
+    width: 52%;
+    height:390px;
+    background-color: #1B4153;
+    position:absolute;
+    top:360px;
+    left:0px;
+    color: white;
+    font-size: 60px;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-style: initial ;
+    text-align: center;
+}
+.divOnImage span{
+    color: #6FDA44;
+}
+.lineBelowCardContainer{
+    color:black;
+}
+.divBelowCardContainer{
+/* 
+    width: 100%;
+    height: 400px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;*/
+    margin-top: 5%; 
+    text-align: center;
+}
+
+.how-works{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+    
+}
+
+.register{
+    flex: 2;
+    color:black;
+    /* height: 330px; */
+    /* width: 33.33%; */
+    background-color:white;
+    margin-top: 10px;
+    text-align: center;
+    /* padding: 20px; */
+    /* padding: 5%; */
+}
+.collaborate{
+    flex: 2;
+    color:black;
+    /* height: 330px; */
+    /* width: 33.33%; */
+    background-color:white;
+    margin-top: 10px;
+    text-align: center;
+    /* position: relative; */
+    /* left: 33%; */
+    /* top: -340px; */
+    /* padding: 5%; */
+}
+.payment{
+    flex: 2;
+    color:black;
+    /* height: 330px; */
+    /* width: 33.33%; */
+    background-color:white;
+    margin-top: 10px;
+    text-align: center;
+    /* position: relative;
+    left: 66%;
+    top: -680px; */
+    /* padding: 5%; */
+}
+.registerImg{
+    width: 30%;
+    height: 30%;
+}
+.collabImg{
+    width: 30%;
+    height: 30%;
+}
+.payImg{
+    width: 30%;
+    height: 30%;
+}
+@media all and (max-width:970px){
+    .img{
+        width: 40%;
+    }
+    .img-text{
+        width: 50%;
+        left: 5%;
+        top: 5%;
+        overflow: hidden;
+    }
+    .img-container{
+        position: relative;
+        height: 280px;
+        box-sizing: border-box;
+    
+    }
+    .card-container{
+        height: 800px;
+    }
+    .cards{
+        grid-template-columns: auto auto;
+    }
+}
+@media all and (max-width:550px){
+    .card-container{
+        height: 1400px;
+    }
+    .img-container{
+        /* position: relative; */
+        /* height: 260px; */
+        /* box-sizing: border-box; */
+        /* background-color: red; */
+        width: 90%;
+    
+    }
+    .cards{
+        grid-template-columns: auto;
+    }
+    .how-works{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* background-color: red; */
+        
+    }
+    .registerImg{
+        width: 20%;
+        height: 20%;
+    }
+    .collabImg{
+        width: 20%;
+        height: 20%;
+    }
+    .payImg{
+        width: 20%;
+        height: 20%;
+    }
+
+    .img-container img{
+        display: none;
+    }
+    .img-text{
+        /* position: absolute; */
+        /* transform: translateY(-100%); */
+        /* top: 25%; */
+        /* left: 10%; */
+        /* text-align: center; */
+        color: #018328;
+        width: 100%;
+        /* background-color: blueviolet; */
+
+        /* height: 100%; */
+    }
+    
+}
+/* @media all and (max-width:905px){ */
+    /* .card-container{
+        height: 1400px;
+    } */
+    /* .cards{
+        grid-template-columns: auto auto;
+    }
+} */
